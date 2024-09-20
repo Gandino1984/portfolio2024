@@ -16,6 +16,7 @@
   }
   
   .content-overlay {
+    font-family: Montserrat;
     position: relative;
     z-index: 1;
     height: 100%;
@@ -26,9 +27,15 @@
     color: black;
     text-align: center;
     /* padding: 1rem; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+  }
+
+  .content-overlay p{
+    font-family: Hind;
+    user-select: none;
   }
   
+
   h1 {
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: bold;
@@ -41,12 +48,12 @@
   }
   
   .cta-button {
-    background-color: #3498db;
+    font-family: Hind;
+    background-color: black;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
     font-size: clamp(0.9rem, 2vw, 1.1rem);
-    font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
