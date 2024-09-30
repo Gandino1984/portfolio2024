@@ -1,0 +1,42 @@
+.hero-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 100%;
+    transition: transform 0.2s ease;
+  }
+  
+  .hero-wrapper h1 {
+    font-size: clamp(3rem, 5vw, 4rem);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hero-wrapper h1 span {
+    display: inline-block;
+    white-space: pre;
+    will-change: transform;
+  }
+  
+  .hero-subtitle {
+    font-weight: 300;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-wrapper {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-wrapper h1 {
+      font-size: clamp(1.5rem, 7vw, 2.5rem);
+    }
+  }
