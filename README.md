@@ -2,7 +2,7 @@
 
 ![alt text](image-1.png)
 
-Este proyecto es una página de inicio dinámica e interactiva para un sitio web de portafolio personal. Muestra proyectos destacados y proporciona información de contacto en un formato atractivo y visualmente agradable.
+Este proyecto es una página dinámica e interactiva creada con React.js para mi sitio web de portafolio personal. Muestra una selección de proyectos destacados y proporciona información de contacto en un formato modular y visualmente atractivo.
 
 
 ## Características
