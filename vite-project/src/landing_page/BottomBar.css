@@ -1,0 +1,24 @@
+.bottom-buttons-wrapper {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    width: 100%;
+    height: 10vh;
+  }
+  
+  .bottom-buttons-container {
+    display: flex;  
+  }
+  
+  .bottom-buttons-title {
+    font-family: Montserrat;
+    letter-spacing: .1vw;
+    color: white;
+    font-weight: 600;
+    padding-bottom: .3em;
+  }
+  
+  
